@@ -33,30 +33,32 @@
             </nav>
         </div>
     </header>
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true"></div>
 </template>
 <style scoped>
-body {
-    font-family: Roboto, sans-serif;
-}
-
 .navbar {
     background: linear-gradient(45deg, var(--pink-color), var(--orange-color), var(--green-color), var(--purple-color), var(--blue-color));
+}
+
+#navbar .nav .nav-link.active {
+    color: var(--gray-color);
 }
 
 #navbar .nav .nav-link,
 .navbar-brand,
 .nav-profile .nav-link.active:hover {
-    color: var(--gray-color);
+    color: var(--lightGray-color);
     font-size: 20px;
 }
 
 .navbar-toggler {
-    background-color: #fff8e3;
+    background-color: var(--white-color);
 }
 
 .section-title {
     font-family: Source Code Pro, monospace;
     font-size: 28px;
     font-weight: 700;
-    }
+}
+
 </style>

@@ -39,7 +39,13 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap",
           rel: "stylesheet",
         },
+      ],
+      script: [
+        {
+          src: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js",
+          defer: true
+        }
       ]
     }
-  }
+  },
 });
