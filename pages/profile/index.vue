@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar />
         Favoritos
     </div>
 </template>
