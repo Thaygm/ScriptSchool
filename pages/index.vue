@@ -52,5 +52,6 @@ h1 {
 
 .card-news p {
     margin-top: 10px;
+    text-align: justify;
 }
 </style>
