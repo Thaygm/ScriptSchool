@@ -47,7 +47,7 @@
 #navbar .nav .nav-link,
 .navbar-brand,
 .nav-profile .nav-link.active:hover {
-    color: var(--lightGray-color);
+    color: var(--Gray-color);
     font-size: 20px;
 }
 

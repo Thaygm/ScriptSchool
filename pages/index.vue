@@ -32,7 +32,7 @@ h1 {
 }
 
 .card-news {
-    background-color: var(--lightGray-color);
+    background-color: var(---color);
     color: var(--white-color);
     padding: 20px;
     margin: 10px 0;

@@ -4,7 +4,9 @@
     --green-color: #A9DC76;
     --purple-color: #AB9DF2;    /*cards*/
     --blue-color: #78DCE8;
-    --gray-color: #2C2C2C;   /*background*/
-    --lightGray-color: #2F2F2F;    /*cards*/
+    --darkGray-color: #2C2C2C;   /*background*/
+    --Gray-color: #2F2F2F;    /*cards*/
+    --lightGray-color: #72757C;
     --white-color: #F5F7F8;
+    --iceWhite-color: #EEEEEE;
 }
